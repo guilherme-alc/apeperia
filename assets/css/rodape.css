@@ -16,6 +16,7 @@
 .rodape__social {
     display: flex;
     justify-content: space-around;
+    padding: 3rem 0;
 }
 
 .rodape__social-item:nth-child(2) {
@@ -47,4 +48,7 @@
         justify-content: space-around;
         padding: 3rem 0;
     }
+    
+    .rodape__social {
+        padding: 0;
 }
