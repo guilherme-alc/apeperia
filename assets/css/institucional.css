@@ -1,0 +1,85 @@
+.institucional__conteudo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+    text-align: center;
+}
+
+.institucional__titulo {
+    color: var(--cor-titulo);
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.institucional__descricao {
+    font-size: 15px;
+    padding: 2rem 0;
+}
+
+.intitucional__local {
+    color: #666666;
+    font-size: 23px;
+    line-height: 31px;
+    margin-bottom: 1.5rem;
+}
+
+.intitucional__telefone {
+    color: #666666;
+    font-size: 19px;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.institucional__email {
+    color: var(--cor-link);
+    font-size: 19px;
+    text-decoration: none;
+    display: block;
+    margin: 1rem 0;
+}
+
+.institucional__video {
+    margin-top: 2.5rem;;
+    width: 100vw;
+}
+
+@media screen and (min-width: 768px) {
+    .institucional__conteudo {
+        padding: 0 1.5rem;
+    }
+    
+    .institucional__email {
+        display: inline-block;
+    }
+
+    .institucional__video {
+        margin-top: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .institucional__conteudo {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        padding: 4rem 1rem;
+        text-align: start;
+    }
+
+    .institucional__descricao {
+        padding: 0 0 2rem 0;
+    }
+
+    .institucional__email {
+        display: block;
+    }
+
+    .institucional__video {
+        width: 40%;
+    }
+}

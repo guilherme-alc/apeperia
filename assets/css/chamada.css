@@ -1,0 +1,40 @@
+.chamada {
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.chamada__titulo {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.chamada__texto {
+    font-size: 20px;
+    line-height: 27.24px;
+    margin: 1.3rem auto;
+}
+
+.chamada__botao {
+    color: var(--branco);
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .chamada__texto {
+        max-width: 510px;
+    }
+
+    .chamada__botao {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .chamada__titulo {
+        font-size: 52px;
+    }
+}
